@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.landicorp.wifiprobeappdemo.MainActivity">
+    <TextView
+        android:id="@+id/tv_servicestate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wifi探针服务绑定状态：未绑定" />
+    <TextView
+        android:id="@+id/tv_probestate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wifi探针开启状态：未开启" />
+    <TextView
+        android:id="@+id/tv_mac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <Button
+        android:id="@+id/btn_bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定探针服务"/>
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始接收数据"/>
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停止接收数据"/>
+    <Button
+        android:id="@+id/btn_unbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解绑探针服务"/>
+
+</LinearLayout>
